@@ -1,0 +1,52 @@
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 60px;
+}
+
+h1{
+  color: #D32F2F;
+}
+
+input{
+  width: 99%;
+  font-size: large;
+  border: 1px solid #898080;
+  
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 210px;               
+  border: 1px solid #EF9A9A;    
+  border-radius: 4px;           
+  overflow: hidden;             
+  display: flex;                
+  flex-direction: column;       
+  margin: 20px;
+}
+
+.card-header {
+  color: #D32F2F;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #EF9A9A;
+  background-color: #FFEBEE;
+}
+
+.card-main {
+  display: flex;              
+  flex-direction: column;     
+  justify-content: center;    
+  align-items: center;       
+  padding: 5px 0;            
+}
+
+.card img{
+  max-height: 250px;
+}
